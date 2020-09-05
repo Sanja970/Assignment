@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let a = prompt("a:");
+        let o = prompt("+, -, *, /:");
+        let b = prompt("b:");
+
+        switch (o) {
+            case "+":
+                alert("Zbir je: " + (parseInt(a) + parseInt(b)));
+                break;
+            case "-":
+                alert("Razlika je: " + (parseInt(a) - parseInt(b)));
+                break;
+            case "*":
+                alert("Proizvod je: " + (parseInt(a) * parseInt(b)));
+                break;
+            case "/":
+                alert("Količnik je: " + (parseInt(a) / parseInt(b)));
+                break;
+            default:
+                alert("Unknown value");
+                break;
+        }
+
+    </script>
+</body>
+</html>
